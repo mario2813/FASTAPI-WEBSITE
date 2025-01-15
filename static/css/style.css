@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url('/static/images/gym.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+#hero .btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#services, #about, #contact {
+    padding: 2em 0;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.service {
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    flex: 1 1 calc(33.333% - 2em);
+    box-sizing: border-box;
+}
+
+.service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service h3 {
+    margin: 0;
+    padding: 1em;
+    background: #e67e22;
+    color: white;
+    text-align: center;
+}
+
+.service p {
+    padding: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #e67e22;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d35400;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
